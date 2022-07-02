@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
@@ -7,12 +9,8 @@
 
 int main(void)
 {
-	int ch;
+	char d = 'a';
 
-	for (ch = 97; ch <= 122; ch++)
-	{
-		putchar(ch);
-	}
-	putchar(10); /* this is an ascii code for new line*/
-	return (0);
-}
+	 while (d <= 'z')
+	 {putchar(d);
+	 d++;
